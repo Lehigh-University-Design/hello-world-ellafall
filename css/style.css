@@ -1,23 +1,50 @@
-<!DOCTYPE html>
+body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: beige;
+    margin: 20px;
+}
 
-<html>
+h1 {
+    font-size: 50 px;
+    font-weight: 300;
+}
 
-    <head>
-        <title>Hello World</title>
-    </head>
+.special-headline {
+    font-weight: 900px;
+    color:blue;
+}
+
+#unique-headline {
+    font-weight: 300;
+    color:mediumorchid;
+}
+
+h2, h3, h4 {
+    font-weight: 300;
+    color: #111111;
+}
+
+.post {
+    border:1px solid black;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 20px;
+
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+}
+
+.highlight {
+    background-color: black;
+    color: beige;
+    h2{
+        color: bisque;
+    }
+}
 
 
-    <body>
-        <h1 style="color:Tomato;">Hello World</h1>
-        <h4>Smaller Hello</h4>
-        <p>A whole bunch of text goes here.</p>
-     
-        <p> Another line of text here </p>
-        &#128514;	
-        &#128514;	
-        &#128514;	
-
-    </body>
-
-
-</html>
