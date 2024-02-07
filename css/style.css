@@ -4,6 +4,7 @@ body {
     font-style: normal;
     background-color: beige;
     margin: 20px;
+    font-size: 22px;
 }
 
 h1 {
@@ -47,4 +48,10 @@ h2, h3, h4 {
     }
 }
 
+/* Lab 2 Styles */
+
+.container{
+        max-width 1080 px;
+        margin: 0 auto;
+}
 
