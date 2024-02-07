@@ -1,14 +1,25 @@
+:root {
+    --background-color: beige;
+    --light-color: #ffffff;
+    --dark-color: blue;
+}
+
 body {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    background-color: beige;
+    background-color: var(--background-color);
     margin: 20px;
     font-size: 22px;
 }
 
 h1 {
-    font-size: 50 px;
+    font-size: 2.5 em;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 2 em;
     font-weight: 300;
 }
 
@@ -24,14 +35,16 @@ h1 {
 
 h2, h3, h4 {
     font-weight: 300;
-    color: #111111;
+    color: var(--dark-color);
 }
 
 .post {
-    border:1px solid black;
-    margin-bottom: 20px;
-    padding: 20px 20px 20px 20px;
-
+    border:1px solid (--dark-color);
+    margin-bottom: 1 emx;
+    padding: .5em 1em;
+    .img-container 
+        {aspect-ratio: 3/2;
+    }
     img {
         width: 100%;
         height: auto;
@@ -41,10 +54,10 @@ h2, h3, h4 {
 }
 
 .highlight {
-    background-color: black;
-    color: beige;
+    background-color: (--dark-color);
+    color: var(--background-color);
     h2{
-        color: bisque;
+        color: var(--background-color);
     }
 }
 
