@@ -68,3 +68,39 @@ h2, h3, h4 {
         margin: 0 auto;
 }
 
+/* Lab 3 Styles */
+
+.hide-me {
+    display: none;
+}
+
+.block-div, .block {
+    display: block;
+    color: coral;
+    border: 1px solid var(--dark-color);
+    padding: 1em;
+}
+
+.inline {
+    display: inline;
+}
+
+
+.inline-block {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0.2em 0.8em;
+    color: var(--dark-color) !important;
+    background-color: coral;
+    transform: rotate (-8deg);
+    font-weight: 800;
+    font-variation-settings:
+        "wdth" 75;
+}
+
+.block {
+    margin: 1em 0;
+}
+
+
+
