@@ -1,0 +1,27 @@
+.deck {
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card {
+    background-color: beige;
+    width: 400px;
+    height: 400px;
+    padding: 1em;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    background: black;
+    border-radius: 120px;
+    background-image: url(../images/lightscape.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
